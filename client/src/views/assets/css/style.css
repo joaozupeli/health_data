@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* Login */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 24px;
+    width: 280px;
+}
+
+.login-box h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+    background: #e8e8e8;
+    cursor: pointer;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 16px;
+}
+
+.toolbar-links a,
+.toolbar-logout {
+    margin-right: 16px;
+    color: #222;
+    text-decoration: none;
+}
+
+.toolbar-logout {
+    margin-right: 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.page-content {
+    padding: 20px;
+}
+
+.page-content h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
