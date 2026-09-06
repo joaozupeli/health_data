@@ -1,10 +1,4 @@
 <?php
-/**
- * env.php
- * Lê o arquivo .env na mão (sem Composer, sem lib externa)
- * e joga as chaves pra dentro do $_ENV.
- */
-
 function loadEnv(string $path): void
 {
     if (!file_exists($path)) {

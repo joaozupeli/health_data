@@ -16,7 +16,7 @@ try {
         "mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4",
         $_ENV['DB_HOST'],
         $_ENV['DB_PORT'],
-        $_ENV['DB_NAME']
+        $_ENV['DB_USERNAME']
     );
 
     $options = [
@@ -25,7 +25,7 @@ try {
         PDO::MYSQL_ATTR_SSL_CA       => __DIR__ . '/certs/isrgrootx1.pem',
     ];
 
-    $pdo = new PDO($dsn, $_ENV['DB_USER'], $_ENV['DB_PASS'], $options);
+    $pdo = new PDO($dsn, $_ENV['DB_USERNAME'], $_ENV['DB_PASSWORD'], $options);
 
 } catch (PDOException $e) {
     // em produção isso viraria log, mas pra desafio de faculdade
