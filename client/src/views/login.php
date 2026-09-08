@@ -11,11 +11,11 @@
         <form class="login-box" id="login-form">
             <h1>Health Data</h1>
 
-            <label for="usuario">Usuário</label>
-            <input type="text" id="usuario" name="usuario">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username">
 
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password">
 
             <button type="submit">Entrar</button>
         </form>
