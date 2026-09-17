@@ -1,0 +1,38 @@
+{
+    "medicos": [
+        {
+            "id": 1,
+            "nome": "Dra. Ana Martins",
+            "crm": "CRM\/SP 123456",
+            "especialidade": "Clínica Geral",
+            "telefone": "(11) 99999-1001",
+            "email": "ana@healthdata.local"
+        },
+        {
+            "id": 2,
+            "nome": "Dr. Carlos Lima",
+            "crm": "CRM\/SP 654321",
+            "especialidade": "Cardiologia",
+            "telefone": "(11) 99999-1002",
+            "email": "carlos@healthdata.local"
+        }
+    ],
+    "pacientes": [
+        {
+            "id": 1,
+            "nome": "Mariana Souza",
+            "cpf": "123.456.789-00",
+            "nascimento": "1992-04-18",
+            "telefone": "(11) 98888-2001",
+            "email": "mariana@example.com"
+        },
+        {
+            "id": 2,
+            "nome": "João Oliveira",
+            "cpf": "987.654.321-00",
+            "nascimento": "1985-11-03",
+            "telefone": "(11) 98888-2002",
+            "email": "joao@example.com"
+        }
+    ]
+}

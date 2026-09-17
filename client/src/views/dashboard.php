@@ -1,26 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Health Data</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <nav class="toolbar">
-        <div class="toolbar-links">
-            <a href="dashboard.php">Dashboard</a>
-            <a href="medico/list.php">Médico</a>
-            <a href="paciente/list.php">Paciente</a>
-        </div>
-        <button type="button" class="toolbar-logout" id="logout-btn">Sair</button>
-    </nav>
-
-    <main class="page-content">
-        <h1>Dashboard</h1>
-        <p>Bem-vindo ao Health Data.</p>
-    </main>
-
-    <script src="assets/js/dashboard.js"></script>
-</body>
-</html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard - Health Data</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body><nav class="toolbar"><a class="toolbar-brand" href="dashboard.php">+ Health Data</a><div class="toolbar-links"><a class="active" href="dashboard.php">Dashboard</a><a href="medico/list.php">Médicos</a><a href="paciente/list.php">Pacientes</a><button class="toolbar-logout" id="logout-btn">Sair</button></div></nav>
+<main class="page-content"><header class="page-header"><div><h1>Visão geral</h1><p id="welcome">Bem-vindo ao Health Data.</p></div></header>
+<section class="stats"><article class="card"><p class="stat-label">Médicos cadastrados</p><p class="stat-value" id="medicos-count">—</p></article><article class="card"><p class="stat-label">Pacientes cadastrados</p><p class="stat-value" id="pacientes-count">—</p></article><article class="card"><p class="stat-label">Status do sistema</p><p class="stat-value" style="font-size:22px;color:#16a34a">● Operacional</p></article></section>
+<section class="quick-links"><article class="card"><h2>Equipe médica</h2><p>Cadastre e organize médicos e especialidades.</p><a class="button" href="medico/list.php">Ver médicos</a></article><article class="card"><h2>Pacientes</h2><p>Gerencie os dados básicos dos pacientes.</p><a class="button" href="paciente/list.php">Ver pacientes</a></article></section>
+</main><script src="assets/js/dashboard.js"></script></body></html>
